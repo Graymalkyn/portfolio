@@ -165,14 +165,25 @@ header li a {
 	color: white;
 }
 
-header li a:hover {
+header li:hover a {
 	color: black;
 }
+
 /*********************** skills ********************/
+
 #skills {
 	margin: 40px;
 	text-align: center;
 }
+
+/*#skills .skills-container {
+	display:none;
+}
+
+#skills .skills-container:target {
+	display:block;
+}*/
+
 
 #skills h2 {
 	margin: 3% auto;
@@ -204,6 +215,7 @@ header li a:hover {
 /*********************** experience ********************/
 
 #experience {
+	border: 5px solid red;
 	background-color: white;
 }
 
@@ -211,6 +223,7 @@ header li a:hover {
 	border-bottom: 2px solid rgba(148, 67, 46, 1.0);
 	margin: 20px auto;
 	max-width: 90%;
+	overflow: auto;
 }
 
 .experience-container h2 {
@@ -400,3 +413,5 @@ a {
 .download-resume a:hover {
 	color: black;
 }
+
+/****************************************/
