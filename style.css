@@ -54,7 +54,7 @@ $secondary-color: white;*/
 
 body {
 	background-color: rgba(212, 145, 102, 1.0);
-	font-family: "Calibri", sans-serif;
+	font-family: "Calibri", serif;
 	text-decoration: none;
 }
 
@@ -68,8 +68,8 @@ h1 {
 h2 {
 	color: black;
 	font-size: 2em;
+	font-weight: bold;
 	text-align: center;
-	margin-top: 50px;
 }
 
 h3 {
