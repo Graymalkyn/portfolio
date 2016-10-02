@@ -3,156 +3,171 @@
   <head>
     <title>Portfolio</title>
     <link href="style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
   </head>
   <body>
-    <!-- *************************************** -->
-    <header>
-      <div class="header-container">
-        <h1>Mark D. Shuler</h1>
-
-        <h2>Junior Web Developer</h2>
-        <h2>Experienced Technical Writer</h2>
-        <h2>Woodworker</h2>
-
-        <img src="images/photo_me.jpg"/>
-
-        <ul>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#resume">Resum&eacute;</a></li>
-        </ul>
-      </div>
-  </header>
-
-  <!-- *************************************** -->
-
-  <div id="skills">
-    <div class="skills-container">
-      <h2>Skills</h2>
-
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>jQuery</li>
-        <li>React</li>
-        <li>GitHub</li>
-        <li>AWS</li>
-        <li>heroku</li>
-        <li>Technical Writer</li>
-        <li>MS Office</li>
-        <li>Windows</li>
-        <li>Mac OS</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- *************************************** -->
-  <div id="experience">
-    <div class="experience-container">
-        <h2>Experience</h2>
-
-        <div class="box box-1">
-          <div class="overlay">
-            <div class="content">
-              <h3>The Iron Yard</h3>
-              <p>HTML, CSS, JavaScript Code Camp</p>
-              <a target="_blank" href="https://www.theironyard.com/dallas"><div class="case-study">Check it out!</div></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="box box-2">
-          <div class="overlay">
-            <div class="content">
-              <h3>My Etsy Project</h3>
-              <p>Class Final Project (Published)</p>
-              <a target="_blank" href="https://mark-shuler-etsy.herokuapp.com"><div class="case-study">Check it out!</div></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="box box-3">
-          <div class="overlay">
-            <div class="content">
-              <h3>DFW Free Code Camp</h3>
-              <p>In Class CSS Exercise (Published)</p>
-              <a target="_blank" href="https://s3-us-west-1.amazonaws.com/dfwfreecodecamp/index.html"><div class="case-study">Check it out!</div></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="box box-4">
-          <div class="overlay">
-            <div class="content">
-              <h3>Lockheed Martin</h3>
-              <p>Technical Writer</p>
-              <a target="_blank" href="http://www.lockheedmartin.com/us.html"><div class="case-study">Check it out!</div></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="box box-5">
-          <div class="overlay">
-            <div class="content">
-              <h3>Github</h3>
-              <p>Coding Examples</p>
-              <a target="_blank" href="https://github.com/Graymalkyn"><div class="case-study">Check it out!</div></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="box box-6">
-          <div class="overlay">
-            <div class="content">
-              <h3>LinkedIn</h3>
-              <p>LinkedIn Profile</p>
-              <a target="_blank" href="https://www.linkedin.com/in/mark-shuler-2ab499b7"><div class="case-study">Check it out!</div></a>
-            </div>
-          </div>
-        </div>
-    </div>
-  </div>
-
+    <div class="overall-container">
       <!-- *************************************** -->
+      <header>
+        <div class="header-container">
+          <h1>Mark D. Shuler</h1>
 
-        <div id="resume">
-          <div class="resume-container">
-            <h2>Resum&eacute;</h2>
-              <div class="jobs">
-                <div class="job-left">The Iron Yard</div>
-                <div class="job-right">
-                  <div class="right-top">07/2016 - 10/2016</div>
-                  <div class="right-bottom">12 week immersive code school where I learned HTML, CSS, JavaScript, JQuery, lodash, and React.</div>
-                </div>
-              </div>
+          <h2>Junior Web Developer</h2>
+          <h2>Experienced Technical Writer</h2>
+          <h2>Woodworker</h2>
 
-            <div class="jobs">
-              <div class="job-left">Lockheed Martin</div>
-              <div class="job-right">
-                <div class="right-top">11/1998 - 02/2016</div>
-                <div class="right-bottom">17 years service progressing from helpdesk analyst to Senior Technical Support / Technical Writer</div>
-              </div>
-            </div>
+          <img src="images/photo_me.jpg"/>
 
-            <div class="jobs">
-              <div class="job-left">Joseph's Locker<br> <span>(Volunteer)</span></div>
-                <div class="job-right">
-                <div class="right-top">07/2012 - Present</div>
-                <div class="right-bottom">Food and clothing collection and distribution, including mobile delivery to 'shut-in' homes.</div>
-              </div>
-            </div>
-
-            <div class="download-resume"><a href="">Download Resume (PDF)</a></div>
-          </div>
+          <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#resume">Resum&eacute;</a></li>
+          </ul>
         </div>
+      </header>
+
+    <!-- *************************************** -->
+
+    <div id="skills">
+      <div class="skills-container">
+        <h2>Skills</h2>
+
+        <div class="col col-1">
+          <ul>
+            <div class="column-head">Coding</div>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>React</li>
+            <li>GitHub</li>
+            <li>AWS</li>
+            <li>heroku</li>
+          </ul>
+        </div>
+
+        <div class="col col-2">
+          <ul>
+            <div class="column-head">Writing</div>
+            <li>Technical Writer</li>
+            <li>Software Documentation</li>
+            <li>Operating Instructions</li>
+          </ul>
+        </div>
+
+        <div class="col col-3">
+          <ul>
+            <div class="column-head">General</div>
+            <li>MS Office</li>
+            <li>Windows</li>
+            <li>Mac OS</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- *************************************** -->
+    <div id="experience">
+      <div class="experience-container">
+          <h2>Experience</h2>
+
+          <div class="box box-1">
+            <div class="overlay">
+              <div class="content">
+                <h3>The Iron Yard</h3>
+                <p>HTML, CSS, JavaScript Code Camp</p>
+                <a target="_blank" href="https://www.theironyard.com/dallas"><div class="case-study">Check it out!</div></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="box box-2">
+            <div class="overlay">
+              <div class="content">
+                <h3>My Etsy Project</h3>
+                <p>Class Final Project (Published)</p>
+                <a target="_blank" href="https://mark-shuler-etsy.herokuapp.com"><div class="case-study">Check it out!</div></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="box box-3">
+            <div class="overlay">
+              <div class="content">
+                <h3>DFW Free Code Camp</h3>
+                <p>In Class CSS Exercise (Published)</p>
+                <a target="_blank" href="https://s3-us-west-1.amazonaws.com/dfwfreecodecamp/index.html"><div class="case-study">Check it out!</div></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="box box-4">
+            <div class="overlay">
+              <div class="content">
+                <h3>Lockheed Martin</h3>
+                <p>Technical Writer</p>
+                <a target="_blank" href="http://www.lockheedmartin.com/us.html"><div class="case-study">Check it out!</div></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="box box-5">
+            <div class="overlay">
+              <div class="content">
+                <h3>Github</h3>
+                <p>Coding Examples</p>
+                <a target="_blank" href="https://github.com/Graymalkyn"><div class="case-study">Check it out!</div></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="box box-6">
+            <div class="overlay">
+              <div class="content">
+                <h3>LinkedIn</h3>
+                <p>LinkedIn Profile</p>
+                <a target="_blank" href="https://www.linkedin.com/in/mark-shuler-2ab499b7"><div class="case-study">Check it out!</div></a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
 
         <!-- *************************************** -->
 
+          <div id="resume">
+            <div class="resume-container">
+              <h2>Brief Resum&eacute;</h2>
+                <div class="jobs">
+                  <div class="job-left">The Iron Yard</div>
+                  <div class="job-right">
+                    <div class="right-top">07/2016 - 10/2016</div>
+                    <div class="right-bottom">12 week immersive code school. <br> Curriculum: HTML, CSS, JavaScript, JQuery, lodash, and React.</div>
+                  </div>
+                </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+              <div class="jobs">
+                <div class="job-left">Lockheed Martin</div>
+                <div class="job-right">
+                  <div class="right-top">11/1998 - 02/2016</div>
+                  <div class="right-bottom">17 years service culminating in a position as Senior Technical Support / Technical Writer.</div>
+                </div>
+              </div>
 
-  <script src="script.js"></script>
+              <div class="jobs">
+                <div class="job-left">Joseph's Locker<br> <span>(Volunteer)</span></div>
+                  <div class="job-right">
+                  <div class="right-top">07/2012 - Present</div>
+                  <div class="right-bottom">Food and clothing collection and distribution, including mobile delivery to 'shut-in' homes.</div>
+                </div>
+              </div>
 
+              <div class="download-resume"><a href="">Full Resume (PDF)</a></div>
+            </div>
+          </div>
+
+          <!-- *************************************** -->
+    </div>
   </body>
 </html>
