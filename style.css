@@ -55,15 +55,15 @@ table {
 
 body {
 	background-color: black;
-	color: white;
+	color: black;
 	/*background-image: url(images/cut-tree-md.jpg);*/
 	font-family: "Cabin", Verdana, sans-serif;
 	text-decoration: none;
 }
 
 .overall-container {
-	background-color: rgba(52, 97, 163, 1.0);
-	border: 1px solid rgba(82, 82, 84, 1.0);
+	background-color: rgba(247, 239, 219, 1.0);
+	border: 1px solid rgba(64, 36, 10, 1.0);
 	max-width: 85%;
 	margin: 100px auto;
 }
@@ -74,17 +74,46 @@ h1 {
 }
 
 h2 {
+	background-color: black;
+	border: 5px solid rgba(140, 88, 48, 0.0);
+	border-radius: 10px;
+	color: white;
+	display: block;
 	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
+	margin: 10px;
+	padding: 5px;
 }
 
 h3 {
+	background-color: black;
+	border: 5px solid rgba(140, 88, 48, 0.0);
+	border-radius: 10px;
+	color: white;
+	font-size: 1.5em;
+	margin: 10px;
+	padding: 5px;
+}
+
+h4 {
 	font-size: 1.5em;
 }
 
-p {
+
+/*header li {
+	background-color: black;
+	border: 5px solid rgba(140, 88, 48, 0.0);
+	border-radius: 10px;
+  color: white;
 	font-size: 1.5em;
+	margin: 10px;
+	padding: 5px;
+}*/
+
+
+p {
+	font-size: 1.2em;
 	margin: 30px;
 }
 
@@ -131,6 +160,9 @@ header h1 {
 	padding: 10px;
 }
 
+header h4 {
+	line-height: 1.5em;
+}
 
 header p {
 	display: inline-block;
@@ -153,7 +185,6 @@ header li {
 	font-size: 1.5em;
 	margin: 10px;
 	padding: 5px;
-
 }
 
 
@@ -189,8 +220,12 @@ header li:hover a {
 }
 
 .col {
+	background-color: white;
+	border: 1px solid black;
 	display: inline-block;
-	width: 33%;
+	margin: 0 2%;
+	width: 23%;
+	padding: 2%;
 	vertical-align: top;
 	text-align: center;
 }
@@ -234,7 +269,6 @@ header li:hover a {
 }
 
 .box-1 {
-	background-color: rgba(123, 123, 122, 1.0);
 	background-image: url(images/logo-ironyard.png);
 	background-position: center;
 	margin: 0 1.5% 0 0;
@@ -242,7 +276,6 @@ header li:hover a {
 }
 
 .box-2 {
-	background-color: rgba(123, 123, 122, 1.0);
 	background-image: url(images/ETSY-logo.png);
 	background-position: center;
 	margin: 0 1.5% 0 0;
@@ -250,14 +283,12 @@ header li:hover a {
 }
 
 .box-3 {
-	background-color: rgba(123, 123, 122, 1.0);
 	background-image: url(images/macbook-combined.png);
 	background-position: center;
 	width: 32.333333%;
 }
 
 .box-4 {
-	background-color: rgba(123, 123, 122, 1.0);
 	background-image: url(images/lm-logo.png);
 	background-position: center;
 	margin: 0 1.5% 0 0;
@@ -265,7 +296,6 @@ header li:hover a {
 }
 
 .box-5 {
-	background-color: rgba(123, 123, 122, 1.0);
 	background-image: url(images/GitHub2.png);
 	background-position: center;
 	margin: 0 1.5% 0 0;
@@ -273,15 +303,15 @@ header li:hover a {
 }
 
 .box-6 {
-	background-color: rgba(123, 123, 122, 1.0);
+	background-color: rgba(206, 225, 231, 1.0);
 	background-image: url(images/LinkedIn_logo.png);
 	background-position: center;
 	width: 32.333333%;
 }
 
 .overlay {
-	background-color: rgba(0, 0, 0, 0.5);
-	color: #FFF;
+	background-color: rgba(64, 36, 10, 0.6);
+	color: white;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -291,7 +321,7 @@ header li:hover a {
 }
 
 .box:hover .overlay {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .overlay .content {
@@ -353,17 +383,20 @@ a {
 
 .jobs {
 	border-bottom: 2px solid white;
-  height: 125px;
-	margin: 5px 0;
+  height: 100px;
+	margin: 2px 0;
 	text-align: left;
+}
+
+.jobs:last-child {
+	border-bottom: none;
 }
 
 .job-left {
 	border-right: 2px solid white;
   float: left;
   width: 35%;
-  height: 80px;
-	font-size: 1.5em;
+  height: 58px;
 	font-weight: bold;
 	padding-top: 4%;
 }
@@ -374,7 +407,6 @@ a {
 
 .job-right {
   float: left;
-	font-size: 1.2em;
 	line-height: 1.5em;
   width: 64%;
   height: 100%;
@@ -400,7 +432,7 @@ a {
   color: white;
 	display: inline-block;
 	font-size: 1.5em;
-	margin: 30px auto;;
+	margin: 30px 10px;;
 	padding: 5px;
 }
 
