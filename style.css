@@ -100,18 +100,6 @@ h4 {
 	font-size: 1.5em;
 }
 
-
-/*header li {
-	background-color: black;
-	border: 5px solid rgba(140, 88, 48, 0.0);
-	border-radius: 10px;
-  color: white;
-	font-size: 1.5em;
-	margin: 10px;
-	padding: 5px;
-}*/
-
-
 p {
 	font-size: 1.2em;
 	margin: 30px;
@@ -382,20 +370,23 @@ a {
 }
 
 .jobs {
-	border-bottom: 2px solid white;
   height: 100px;
 	margin: 2px 0;
 	text-align: left;
 }
 
-.jobs:last-child {
-	border-bottom: none;
+.jobs.job1 {
+	border-bottom: 2px solid rgba(64, 36, 10, 0.2);
+}
+
+.jobs.job2 {
+	border-bottom: 2px solid rgba(64, 36, 10, 0.2);
 }
 
 .job-left {
-	border-right: 2px solid white;
+	border-right: 2px solid rgba(64, 36, 10, 0.2);
   float: left;
-  width: 35%;
+  width: 25%;
   height: 58px;
 	font-weight: bold;
 	padding-top: 4%;
@@ -408,7 +399,7 @@ a {
 .job-right {
   float: left;
 	line-height: 1.5em;
-  width: 64%;
+  width: 74%;
   height: 100%;
 }
 
