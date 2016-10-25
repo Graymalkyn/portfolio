@@ -97,6 +97,7 @@ h3 {
 header {
 	background-image: url(images/bkgrnd.jpg);
 	background-position: bottom;
+	border-bottom: 1px solid rgba(142, 187, 211, 1.0);
 	padding: 40px;
 	text-align: center;
 	margin: 0px auto;
@@ -154,18 +155,18 @@ header ul {
 
 
 header li {
-	background-color: rgba(177, 177, 177, 0.0);
+	background-color: rgba(0, 0, 0, 0.0);
 	border-radius: 10px;
 	color: black;
 	display: inline-block;
 	font-size: 1.5em;
-	margin: 10px auto;
+	margin: 10px 20px auto;
 	max-width: 170px;
 	padding: 10px;
 }
 
 header li:hover {
-	background-color: black;
+	background-color: rgba(18, 117, 177, 1.0);
   color: white;
 	display: inline-block;
 	transition: 0.2s;
@@ -199,7 +200,8 @@ header li:hover a {
 
 .col {
 	background-color: rgba(215, 212, 207, 1.0);
-	border: 1px solid black;
+	border: 1px solid rgba(18, 117, 177, 1.0);
+	border-radius: 10px;
 	display: inline-block;
 	margin: 0 2%;
 	width: 23%;
@@ -238,6 +240,7 @@ header li:hover a {
 }
 
 .box {
+	border-radius: 10px;
 	float: left;
 	height: 200px;
 	margin-bottom: 15px;
@@ -246,17 +249,19 @@ header li:hover a {
 }
 
 .exp-text {
+	border-radius: 10px;
 	height: 200px;
-	border: 1px solid black;
+	border: 1px solid rgba(18, 117, 177, 1.0);
 	padding: 0 20px;
 	margin: 20px;
 	width: 56%;
 }
 
 .box-1 {
-	border: 1px solid black;
+	border: 1px solid rgba(18, 117, 177, 1.0);
 	background-image: url(images/logo-ironyard.png);
 	background-position: center;
+	background-repeat: no-repeat;
 	float: right;
 	margin: 0 1.5% 0 0;
 	width: 32.333333%;
@@ -264,18 +269,20 @@ header li:hover a {
 
 
 .box-2 {
-	border: 1px solid black;
+	border: 1px solid rgba(18, 117, 177, 1.0);
 	background-image: url(images/ETSY-logo.png);
 	background-position: center;
+	background-repeat: no-repeat;
 	float: right;
 	margin: 0 1.5% 0 0;
 	width: 32.333333%;
 }
 
 .box-3 {
-	border: 1px solid black;
+	border: 1px solid rgba(18, 117, 177, 1.0);
 	background-image: url(images/macbook-combined.png);
 	background-position: center;
+	background-repeat: no-repeat;
 	float: right;
 	margin: 0 1.5% 0 0;
 	width: 32.333333%;
@@ -283,9 +290,10 @@ header li:hover a {
 
 
 .box-4 {
-	border: 1px solid black;
+	border: 1px solid rgba(18, 117, 177, 1.0);
 	background-image: url(images/lm-logo.png);
 	background-position: center;
+	background-repeat: no-repeat;
 	float: right;
 	margin: 0 1.5% 0 0;
 	width: 32.333333%;
@@ -294,6 +302,7 @@ header li:hover a {
 
 
 .overlay {
+	border-radius: 10px;
 	background-color: rgba(215, 212, 207, 1.0);
 	color: black;
 	position: absolute;
@@ -345,7 +354,7 @@ a {
 }
 
 .case-study:hover {
-	background-color: black;
+	background-color: rgba(18, 117, 177, 1.0);
 	color: white;
 }
 
@@ -466,6 +475,7 @@ span.add-label{
 		width: 75%;
 		min-width: 225px;
 		margin: auto;
+		margin-bottom: 20px;
 	}
 
 	.footer-list {
