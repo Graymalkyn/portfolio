@@ -468,6 +468,10 @@ span.add-label{
 		color: black;
 	}
 
+	.case-study:hover {
+		
+	}
+
 	.exp-text {
 		height: auto;
 		font-size: 1.5em;
