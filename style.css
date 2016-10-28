@@ -155,7 +155,7 @@ header ul {
 
 
 header li {
-	border: 1px solid black;
+	border: 1px solid rgba(18, 117, 177, 1.0);
 	background-color: rgba(0, 0, 0, 0.0);
 	border-radius: 10px;
 	color: black;
