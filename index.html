@@ -1,165 +1,163 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Mark Shuler's Portfolio Page</title>
-    <link href="style.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-  </head>
-  <body>
-    <div class="overall-container">
-      <!-- *************************************** -->
+  <meta lang="en"/>
+    <head>
+      <title>Mark Shuler Portfolio Page</title>
+      <meta charset="utf8"/>
+      <link href="style.css" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    </head>
+    <body>
+        <div class="float-nav">
+          <ul class="float-nav-list">
+            <li class="github"><a target="_blank" href="https://github.com/Graymalkyn"><img src="images/GitHub2.png" alt="GitHub"></li></a>
+            <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/mark-shuler-2ab499b7"><img src="images/LinkedIn_logo.png" alt="LinkedIn"></li></a>
+            <li class="email" alt="email"><a href="mailto:mshuler40@gmail.com"><img src="images/email-icon.jpeg"></li></a>
+          </ul>
+        </div>
+
       <header>
+
+
+
         <div class="header-container">
 
-          <h1>Mark D. Shuler</h1>
 
-          <h3>Junior Front-End Web Developer</h3>
-          <h3>Experienced Technical Writer</h3>
+          <h1 class="name">Mark D. Shuler</h1>
+
+          <h3 class="web-dev">Junior Front-End Web Developer</h3>
+          <h3 class="tech-wri">Experienced Technical Writer</h3>
 
           <img src="images/photo_me.jpg"/>
 
-          <ul>
+          <ul class="links">
             <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#footer">Contact Me</a></li>
           </ul>
         </div>
       </header>
+<!-- *================== skills ==================*/ -->
 
-    <!-- *************************************** -->
 
-    <div id="skills">
-      <div class="skills-container">
-        <h2>Skills</h2>
+          <div id="skills">
+            <div class="skills-container">
+              <h2>Skills</h2>
 
-        <div class="col col-1">
-          <ul>
-            <div class="column-head">Coding</div>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>React</li>
-            <li>GitHub</li>
-            <li>AJAX</li>
-            <li>SASS</li>
-          </ul>
-        </div>
+              <div class="col col-1">
+                <ul>
+                  <div class="column-head">Coding</div>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>React</li>
+                  <li>GitHub</li>
+                  <li>AJAX</li>
+                  <li>SASS / SCSS</li>
+                  <li>Gulp</li>
+                </ul>
+              </div>
 
-        <div class="col col-2">
-          <ul>
-            <div class="column-head">Writing</div>
-            <li>Technical Writer</li>
-            <li>Software Documentation</li>
-            <li>Operating Instructions</li>
-          </ul>
-        </div>
+              <div class="col col-2">
+                <ul>
+                  <div class="column-head">Writing</div>
+                  <li>Technical Writer</li>
+                  <li>Software Documentation</li>
+                  <li>Instruction Manuals</li>
+                  <li>Step-By-Step Operating Instructions</li>
+                  <li>Standard Operating Procedure Documentation</li>
+                </ul>
+              </div>
 
-        <div class="col col-3">
-          <ul>
-            <div class="column-head">General</div>
-            <li>MS Office</li>
-            <li>Windows</li>
-            <li>Mac OS</li>
-            <li>PaintShop Pro</li>
-            <li>BMC Remedy</li>
-            <li>Slack</li>
-          </ul>
-        </div>
+              <div class="col col-3">
+                <ul>
+                  <div class="column-head">General</div>
+                  <li>MS Office</li>
+                  <li>Windows</li>
+                  <li>Mac OS</li>
+                  <li>PaintShop Pro</li>
+                  <li>BMC Remedy</li>
+                  <li>Slack</li>
+                  <li>Telecommuting</li>
+                  <li>Virtual Meetings</li>
+                </ul>
+              </div>
 
-      </div>
-    </div>
+            </div>
+          </div>
 
-    <!-- *************************************** -->
-    <div id="experience">
-      <div class="experience-container">
+
+      <div id="experience">
+        <div class="experience-container">
           <h2>Experience</h2>
 
-          <div class="exp-box xbox-1">
-            <div class="box box-1">
-              <div class="overlay">
-                <div class="content">
-                  <h3>The Iron Yard</h3>
-                  <p>Immersive Code School</p>
-                  <a target="_blank" href="https://www.theironyard.com/dallas"><div class="case-study">Check it out!</div></a>
-                </div>
-              </div>
-            </div>
-            <div class="exp-text">
-              <p>I recently completed a 12 week immersive front-end web development course. This is an intense, 60-80 hour per week training program with a focus on HTML, CSS, and JavaScript. We also did multiple projects using jQuery, lodash, and React. </p>
-            </div>
-          </div>
-
-          <div class="exp-box">
-          <div class="box box-2">
-            <div class="overlay">
-              <div class="content">
-                <h3>My Etsy Project</h3>
-                <p>Class Final Project</p>
-                <a target="_blank" href="https://mark-shuler-etsy.herokuapp.com"><div class="case-study">Check it out!</div></a>
-              </div>
-            </div>
+        <div class="job tiy">
+          <div class="content">
+            <div class="logo"><img src="images/logo-ironyard.png"/></div>
+            <h3>The Iron Yard</h3>
+            <p>Immersive Code School</p>
           </div>
           <div class="exp-text">
-            <p>This is the final project reqired to complete the Iron Yard program.  The class requirements were fairly open: call an API, and make it useful.  This assignment simply calls the ETSY API, pulls out data for my personal listings, and groups them for display.  Then I use JavaScript/jQuery/React to create a detail page on demand.</p>
+            <p>I recently completed a 12 week immersive front-end web development course. This is an intense, 60-80 hour per week training program with a focus on HTML, CSS, and JavaScript. We also did multiple projects using jQuery, lodash, and React. </p>
+            <a target="_blank" href="https://www.theironyard.com/dallas"><div class="go-link">Go There</div></a>
           </div>
         </div>
 
-
-          <div class="exp-box">
-          <div class="box box-3">
-            <div class="overlay">
-              <div class="content">
-                <h3>DFW Free Code Camp</h3>
-                <p>In Class CSS Exercise</p>
-                <a target="_blank" href="https://s3-us-west-1.amazonaws.com/dfwfreecodecamp/index.html"><div class="case-study">Check it out!</div></a>
-              </div>
-            </div>
+        <div class="job etsy">
+          <div class="content">
+            <div class="logo"><img src="images/ETSY-logo.png"/></div>
+            <h3>My Etsy Project</h3>
+            <p>Class Final Project</p>
           </div>
           <div class="exp-text">
-            <p>This is a project that the two other students in my class and I worked on as a team project.  This was a two phase project: phase 1 was to copy the original site "pixel for pixel".  Phase two was to then take the page which was very static, and make it responsive.</p>
+            <p>This is the final project required to complete the Iron Yard program.  The class requirements were fairly open: call an API, and make it useful.  This assignment calls the ETSY API, pulls out data for my personal listings, and groups them for display.  Then I use JavaScript/jQuery/React to create a detail page on demand. From this detail page, the searcher can go back to look at another item, or go to ETSY to purchase the item.</p>
+            <a target="_blank" href="https://mark-shuler-etsy.herokuapp.com"><div class="go-link">Go There</div></a>
           </div>
         </div>
 
-
-          <div class="exp-box">
-          <div class="box box-4">
-            <div class="overlay">
-              <div class="content">
-                <h3>Lockheed Martin</h3>
-                <p>Technical Writer</p>
-                <a target="_blank" href="http://www.lockheedmartin.com/us.html"><div class="case-study">Check it out!</div></a>
-              </div>
-            </div>
+        <div class="job dfw">
+          <div class="content">
+            <div class="logo"><img src="images/macbook-combined.png"/></div>
+            <h3>DFW Free Code Camp</h3>
+            <p>In Class CSS Exercise</p>
           </div>
           <div class="exp-text">
-            <p>I worked for Lockheed Martin for 17 years. I spent the last 10 years in positions with Technical Writer responsibilities.  At the end, I was the primary point of contact for the gathering, consolidation, and dissemination of information on over 50 projects.</p>
+            <p>This is a project that the two other students in my class and I worked on as a team project.  The original page was created using a web-page constructor and had no responsiveness to it.  Ours was a two phase project: phase one was to copy the original site "pixel for pixel"; phase two was to then take the page which was very static, and make it responsive.  Once completed, we presented it to the web-site owners, who are now using it.</p>
+            <a target="_blank" href="http://dfwcodecamp.com/"><div class="go-link">Go There</div></a>
           </div>
         </div>
 
+        <div class="job lmco">
+          <div class="content">
+            <div class="logo"><img src="images/lm-logo.png"/></div>
+            <h3>Lockheed Martin</h3>
+            <p>Technical Writer</p>
+          </div>
+          <div class="exp-text">
+            <p>I worked for Lockheed Martin for 17 years. I spent the last 10 years in positions with Technical Writer responsibilities.  During my time there I wrote articles, operating instructions, documented software, and wrote countless correspondences.  At the end, I was the primary point of contact for the gathering, consolidation, and dissemination of information on over 50 projects.</p>
+            <a target="_blank" href="http://www.lockheedmartin.com/us.html"><div class="go-link">Go There</div></a>
+          </div>
+        </div>
+
+        </div>
       </div>
-    </div>
-
-<!-- ************* footer ***************** -->
-
-    <div id="footer">
-      <div class="footer-container">
-        <h2 class="contact">Contact Me</h2>
-        <ul class="footer-list">
-          <li class="github"><a target="_blank" href="https://github.com/Graymalkyn"><img src="images/GitHub2.png" alt="GitHub"></li></a>
-          <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/mark-shuler-2ab499b7"><img src="images/LinkedIn_logo.png" alt="LinkedIn"></li></a>
-          <li class="email" alt="email"><a href="mailto:mshuler40@gmail.com"><img src="images/email.jpg"></li></a>
-        </ul>
-        <!-- <div class="item">
-          <p class="label success new-label"><span class="align"><img src="images/phone.png" alt="phone"> Phone</span><span class="add-label">1-817-243-6063</p>
-        </div> -->
 
 
-      </div>
-    </div>
-<!-- *************************************** -->
+          <div id="footer">
+            <div class="footer-container">
+              <h2 class="contact">Contact Me</h2>
+              <ul class="footer-list">
+                <li class="github"><a target="_blank" href="https://github.com/Graymalkyn"><img src="images/GitHub2.png" alt="GitHub"></li></a>
+                <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/mark-shuler-2ab499b7"><img src="images/LinkedIn_logo.png" alt="LinkedIn"></li></a>
+                <li class="email" alt="email"><a href="mailto:mshuler40@gmail.com"><img src="images/email-icon.jpeg"></li></a>
+              </ul>
+            </div>
+          </div>
 
 
-    </div>
-  </body>
+
+
+    </body>
+
 </html>
